@@ -1,0 +1,222 @@
+{
+  "0": {
+    "id": "0",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Virus",
+        "type": "Frontline",
+        "cost": "1",
+        "description": "Place card on opposition lane. Duplicates once in lane at end of each turn.",
+        "attack": "0",
+        "hp": "1",
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "Virus",
+    "type": "Frontline",
+    "cost": "1",
+    "description": "Place card on opposition lane. Duplicates once in lane at end of each turn.",
+    "attack": "0",
+    "hp": "1"
+  },
+  "1": {
+    "id": "1",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Resolve",
+        "type": "Frontline",
+        "cost": "4",
+        "description": "Improves integrity of neighboring cards in same lane by 3.",
+        "attack": "0",
+        "hp": "4",
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "Resolve",
+    "type": "Frontline",
+    "cost": "4",
+    "description": "Improves integrity of neighboring cards in same lane by 3.",
+    "attack": "0",
+    "hp": "4"
+  },
+  "2": {
+    "id": "2",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Supress",
+        "type": "Frontline",
+        "cost": "4",
+        "description": "Decreases opponent integrity in same lane by 1.",
+        "attack": "0",
+        "hp": "4",
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "Supress",
+    "type": "Frontline",
+    "cost": "4",
+    "description": "Decreases opponent integrity in same lane by 1.",
+    "attack": "0",
+    "hp": "4"
+  },
+  "3": {
+    "id": "3",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Molotov",
+        "type": "Frontline",
+        "cost": "4",
+        "description": "Will Damage opponent inegrity by 8 at end of next turn",
+        "attack": "0",
+        "hp": "4",
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "Molotov",
+    "type": "Frontline",
+    "cost": "4",
+    "description": "Will Damage opponent inegrity by 8 at end of next turn",
+    "attack": "0",
+    "hp": "4"
+  },
+  "4": {
+    "id": "4",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Viral Outbreak",
+        "type": "Frontline",
+        "cost": "3",
+        "description": "plus one integrity to every virus card",
+        "attack": "0",
+        "hp": "0",
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "Viral Outbreak",
+    "type": "Frontline",
+    "cost": "3",
+    "description": "plus one integrity to every virus card",
+    "attack": "0",
+    "hp": "0"
+  },
+  "5": {
+    "id": "5",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Viral Agent",
+        "type": "Frontline",
+        "cost": "2",
+        "description": "plus one health AND attack for every virus on the whole board",
+        "attack": "2",
+        "hp": "2",
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "Viral Agent",
+    "type": "Frontline",
+    "cost": "2",
+    "description": "plus one health AND attack for every virus on the whole board",
+    "attack": "2",
+    "hp": "2"
+  },
+  "6": {
+    "id": "6",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Immobolizer",
+        "type": "Frontline",
+        "cost": "3",
+        "description": "place on opponent lane. negative 3 damage to adjacent cards",
+        "attack": "0",
+        "hp": "5",
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "Immobolizer",
+    "type": "Frontline",
+    "cost": "3",
+    "description": "place on opponent lane. negative 3 damage to adjacent cards",
+    "attack": "0",
+    "hp": "5"
+  },
+  "7": {
+    "id": "7",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Killswitch",
+        "type": "Frontline",
+        "cost": "4",
+        "description": "place on opponent lane. does three damage to adjacent cards when destroyed",
+        "attack": "0",
+        "hp": "2",
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "Killswitch",
+    "type": "Frontline",
+    "cost": "4",
+    "description": "place on opponent lane. does three damage to adjacent cards when destroyed",
+    "attack": "0",
+    "hp": "2"
+  },
+  "8": {
+    "id": "8",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Scorched Earth",
+        "type": "Frontline",
+        "cost": "4",
+        "description": "place on opponent lane. permanently occupies opponent space, cannot be removed",
+        "attack": "0",
+        "hp": "0",
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "Scorched Earth",
+    "type": "Frontline",
+    "cost": "4",
+    "description": "place on opponent lane. permanently occupies opponent space, cannot be removed",
+    "attack": "0",
+    "hp": "0"
+  },
+  "9": {
+    "id": "9",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Doppledanger",
+        "type": "Frontline",
+        "cost": "3",
+        "description": "Will clone to occupy entire lane (3 cards) if it can on placement.",
+        "attack": "2",
+        "hp": "3",
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "Doppledanger",
+    "type": "Frontline",
+    "cost": "3",
+    "description": "Will clone to occupy entire lane (3 cards) if it can on placement.",
+    "attack": "2",
+    "hp": "3"
+  }
+}
