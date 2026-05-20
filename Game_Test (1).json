@@ -5,7 +5,7 @@
     "backgrounds": [],
     "decksUrl": ""
   },
-  "customHelp": "Lah Lah Test Help",
+  "customHelp": "Test Help",
   "cardRotation": "90",
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/Rostager/CMPM176-TCG/78969be6959e16592d3c4ce3a4eb5816fcfdf8cc/176_CCG_TCG_Arena_card_list_test_10.json",
@@ -24,7 +24,7 @@
   "gameplay": {
     "Classic": {
       "mulligan": {
-        "info": "Each player can Mulligan TEST cards",
+        "info": "Each player can mulligan 2 cards.",
         "startingHandSize": "2",
         "drawNewHand": false,
         "putSelectionAtBottom": false,
@@ -33,24 +33,23 @@
       "newTurn": {
         "drawOnStart": false,
         "sharedTurn": false,
-        "firstPlayerTokenName": "TestFirstToken",
+        "firstPlayerTokenName": "First Player",
         "drawPerTurn": 1
       },
       "defaultNotes": "",
       "tokens": [],
       "countersStartingValues": [
-        "1"
+        "20"
       ],
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
           "Frontline",
-          "Backline",
-          "Mana"
+          "Backline"
         ],
         "layout": {
-          "direction": "row",
-          "isSymetricalForOpponents": false,
+          "direction": "column",
+          "isSymetricalForOpponents": true,
           "content": [
             {
               "section": "Backline",
@@ -58,10 +57,6 @@
             },
             {
               "section": "Frontline",
-              "style": false
-            },
-            {
-              "section": "Mana",
               "style": false
             }
           ]
@@ -76,7 +71,7 @@
             "height": "MEDIUM",
             "alignment": "START",
             "opponentAlignment": false,
-            "noAutoPayTo": "true",
+            "noAutoPayTo": true,
             "isHorizontalAllowed": false,
             "displayedTitle": "Frontline",
             "enterTapped": false,
@@ -92,25 +87,9 @@
             "height": "MEDIUM",
             "alignment": "START",
             "opponentAlignment": false,
-            "noAutoPayTo": "true",
+            "noAutoPayTo": true,
             "isHorizontalAllowed": false,
             "displayedTitle": "Backline",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
-          },
-          "Mana": {
-            "title": "Mana",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Mana",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
