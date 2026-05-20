@@ -1,0 +1,104 @@
+{
+  "name": "176 CCG Test",
+  "menuBackgroundImage": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg",
+  "defaultRessources": {
+    "backgrounds": [],
+    "decksUrl": ""
+  },
+  "customHelp": "Simple test setup: each player has a Frontline and Backline. Cards are moved manually.",
+  "cardRotation": "90",
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/Rostager/CMPM176-TCG/main/176_CCG_card_list.json?v=1",
+    "cardBack": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg"
+  },
+  "deckBuilding": {
+    "mainFilters": [],
+    "formats": [
+      {
+        "title": "Classic",
+        "gameplay": "Classic",
+        "customCategories": []
+      }
+    ]
+  },
+  "gameplay": {
+    "Classic": {
+      "mulligan": {
+        "info": "Each player draws 2 cards to start.",
+        "startingHandSize": "2",
+        "drawNewHand": false,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": true
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "First Player",
+        "drawPerTurn": 1
+      },
+      "defaultNotes": "",
+      "tokens": [],
+      "countersStartingValues": [
+        "20"
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Backline",
+          "Frontline"
+        ],
+        "layout": {
+          "direction": "column",
+          "isSymetricalForOpponents": true,
+          "content": [
+            {
+              "section": "Backline",
+              "style": false
+            },
+            {
+              "section": "Frontline",
+              "style": false
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [],
+        "autoPlayFromHand": {},
+        "autoPlayFromStack": {},
+        "sectionsDict": {
+          "Backline": {
+            "title": "Backline",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Backline",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          },
+          "Frontline": {
+            "title": "Frontline",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Frontline",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          }
+        }
+      }
+    }
+  }
+}
