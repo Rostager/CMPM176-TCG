@@ -10,7 +10,7 @@
         "description": "Place card on opposition lane. Duplicates once in lane at end of each turn.",
         "attack": "0",
         "hp": "1",
-        "image": "image": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg",
+        "image": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg",
         "isHorizontal": false
       }
     },
@@ -54,7 +54,7 @@
         "description": "Decreases opponent integrity in same lane by 1.",
         "attack": "0",
         "hp": "4",
-        "image": "image": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg",
+        "image": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg",
         "isHorizontal": false
       }
     },
@@ -76,7 +76,7 @@
         "description": "Will Damage opponent inegrity by 8 at end of next turn",
         "attack": "0",
         "hp": "4",
-        "image": "image": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg",
+        "image": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg",
         "isHorizontal": false
       }
     },
@@ -98,7 +98,7 @@
         "description": "plus one integrity to every virus card",
         "attack": "0",
         "hp": "0",
-        "image": "image": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg",
+        "image": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg",
         "isHorizontal": false
       }
     },
@@ -120,7 +120,7 @@
         "description": "plus one health AND attack for every virus on the whole board",
         "attack": "2",
         "hp": "2",
-        "image": "image": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg",
+        "image": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg",
         "isHorizontal": false
       }
     },
@@ -142,7 +142,7 @@
         "description": "place on opponent lane. negative 3 damage to adjacent cards",
         "attack": "0",
         "hp": "5",
-        "image": "image": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg",
+        "image": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg",
         "isHorizontal": false
       }
     },
@@ -164,7 +164,7 @@
         "description": "place on opponent lane. does three damage to adjacent cards when destroyed",
         "attack": "0",
         "hp": "2",
-        "image": "image": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg",
+        "image": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg",
         "isHorizontal": false
       }
     },
@@ -186,7 +186,7 @@
         "description": "place on opponent lane. permanently occupies opponent space, cannot be removed",
         "attack": "0",
         "hp": "0",
-        "image": "image": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg",
+        "image": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg",
         "isHorizontal": false
       }
     },
@@ -208,7 +208,7 @@
         "description": "Will clone to occupy entire lane (3 cards) if it can on placement.",
         "attack": "2",
         "hp": "3",
-        "image": "image": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg",
+        "image": "https://paperandinkprinting.com/wp-content/uploads/2019/08/canstockphoto22402523-arcos-creator.com_-1024x1024.jpg",
         "isHorizontal": false
       }
     },
